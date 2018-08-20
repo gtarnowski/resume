@@ -1,0 +1,15 @@
+.Logo {
+  align-self: center;
+  justify-self: start;
+}
+.Logo h2 {
+  font-size: 2em;
+}
+.Logo h2 span {
+  color: #e83b47;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.Logo h2 strong {
+  font-weight: 500;
+}

@@ -1,0 +1,9 @@
+.Portrait {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.Portrait img {
+  height: 99.5%;
+}

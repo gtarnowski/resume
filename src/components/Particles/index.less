@@ -1,0 +1,15 @@
+@import '../../styles/media';
+@import '../../styles/colors';
+
+.Particles {
+  opacity: .3;
+
+  canvas {
+    position: absolute;
+    width: 70% !important;
+
+    @media @mobile-devices {
+      display: none;
+    }
+  }
+}

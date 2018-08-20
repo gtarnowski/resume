@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Montserrat:100,200,300,400,500,700,800,900|Open+Sans:800|Signika+Negative');
+@keyframes slide-down {
+  0% {
+    transform: translate3d(0, -3px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes show-lighter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@keyframes fadeInTop {
+  0% {
+    -webkit-transform: translateY(-15px);
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+html,
+body,
+#root {
+  background: #232526;
+  background: linear-gradient(to left, #131313, #1E1E1E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+*::selection {
+  background-color: #999;
+}

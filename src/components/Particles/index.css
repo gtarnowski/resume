@@ -1,0 +1,12 @@
+.Particles {
+  opacity: .3;
+}
+.Particles canvas {
+  position: absolute;
+  width: 70% !important;
+}
+@media (max-width: 786px) {
+  .Particles canvas {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.Menu {
+  display: grid;
+}
+.Menu .ToggleButton {
+  justify-self: end;
+}
+.Menu .ToggleMenu {
+  justify-self: end;
+}
+@media only screen and (min-width: 787px) {
+  .Menu .ToggleButton {
+    display: none;
+  }
+}

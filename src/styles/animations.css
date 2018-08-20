@@ -1,0 +1,36 @@
+@keyframes slide-down {
+  0% {
+    transform: translate3d(0, -3px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes show-lighter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@keyframes fadeInTop {
+  0% {
+    -webkit-transform: translateY(-15px);
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
