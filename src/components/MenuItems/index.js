@@ -9,7 +9,7 @@ const MenuItems = ({ open, drawingRef }) => {
   return (
     <ul className="MenuItems" data-open={open}>
       {menuItems.map((option, key) => (
-        <a href="#" key={key} onClick={onClick}>
+        <a href="" key={key} onClick={onClick}>
           <li>{option}</li>
         </a>
       ))}

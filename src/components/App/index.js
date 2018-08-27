@@ -5,6 +5,7 @@ import Particles from '../Particles'
 import Portrait from '../Portrait'
 import Drawing from '../Drawing'
 import Error from '../Error'
+import Footer from '../Footer'
 import ScrollProvider from '../ScrollProvider'
 
 class App extends Component {
@@ -14,14 +15,15 @@ class App extends Component {
     const { onOpen, state: { open } } = this
     return (
       <div className="App">
-        <ScrollProvider />
-        <Error>
-          <Drawing />
-        </Error>
-        <Portrait />
-        <Particles />
-        <Welcome open={open} />
-        <NavBar onOpen={onOpen} open={open} />
+       <div className="Wrapper">
+         <Portrait />
+         <ScrollProvider>
+           {level => <Welcome open={open} level={level}/>}
+         </ScrollProvider>
+         <Particles />
+         <NavBar onOpen={onOpen} open={open} />
+       </div>
+        {/*<Footer />*/}
       </div>
     )
   }
